@@ -2,231 +2,411 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ChatGPT Clone</title>
 </head>
 <body>
-    <section id="table-1669">
-        <div class="cs-container">
-            <div class="cs-content">
-                <span class="cs-topper">Books</span>
-                <h2 class="cs-title">Book Factory</h2>
-                <p class="cs-text">
-                    This tool can be used to research, save, review, prioritize, and purchase books.
-                </p>
+    <nav id="sidebar">
+        <div class="float-top">
+            <div class="sidebar-controls">
+                <button class="new-chat"><i class="fa fa-plus"></i> New chat</button>
+                <button class="hide-sidebar"><i class="fa fa-chevron-left"></i></button>
             </div>
-            <table id="myTable" class="cs-table">
-                <thead>
-                    <tr class="cs-color">
-                        <th class="cs-th">Business Books</th>
-                        <th class="cs-th">Recommended By</th>
-                        <th class="cs-th">Rating</th>
-                        <th class="cs-th">Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="cs-tr">
-                        <td class="cs-td">
-                            <span id="editableCell">One-Time Set-Up Fee in QuickBooks Online</span>
-                            <input type="text" id="editInput" style="display: none;">
-                        </td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Customization of Chart of Accounts</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">General Ledger Maintenance</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Monthly Close of Books</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Adjustments and Reclassifications</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Monthly Bank and Credit Card Reconciliations</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Monthly Account Reconciliations</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Monthly Financial Statements and Customized Reports</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Integration and Training of 3rd Party Apps</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Unlimited Support and Q&A</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Scheduled Meeting to Review Financials</td>
-                        <td class="cs-td">Monthly</td>
-                        <td class="cs-td">Monthly</td>
-                        <td class="cs-td">Quarterly</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">One-Time and Recurring Customer Invoicing</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Bill and Bill Payment</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Analysis of Accounts Receivable</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Analysis of Accounts Payable</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Expense Tracking</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Job Costing and Classes</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Payroll Processing and Filing of Forms 941 and 940</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Creation and Delivery of Form 1099 and 1096</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Sales Tax Form Preparation</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Employee Expense Tracking & Reimbursement</td>
-                        <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
-                        <td class="cs-td"></td>
-                        <td class="cs-td"></td>
-                    </tr>
-                    <tr class="cs-color">
-                        <th class="cs-th">History Books</th>
-                        <th class="cs-th">Plan 1 ($1600+)</th>
-                        <th class="cs-th">Plan 2 ($1100+)</th>
-                        <th class="cs-th">Plan 3 ($600+)</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Profit and Loss Analysis</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Spend Management</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Detailed Financial Statement Flux Analysis</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Revenue Recognition</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Complex Transaction Review</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Team Member Performance</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Company-Wide KPIs</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Performance by Project</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">Budget Creation and Analysis</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                    <tr class="cs-tr">
-                        <td class="cs-td">12-Month Forecasting</td>
-                        <td class="cs-td">Available</td>
-                        <td class="cs-td">N/A</td>
-                        <td class="cs-td">N/A</td>
-                    </tr>
-                </tbody>
-            </table>
+            <ul class="conversations">
+                <li class="grouping">Today</li>
+                <li class="active">
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li class="grouping">Yesterday</li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a very super long conversation title that doesn't fit</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li class="grouping">Previous 7 days</li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+                <li>
+                    <button class="conversation-button"><i class="fa fa-message fa-regular"></i> This is a conversation title</button>
+                    <div class="fade"></div>
+                    <div class="edit-buttons">
+                        <button><i class="fa fa-edit"></i></button>
+                        <button><i class="fa fa-trash"></i></button>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </section>
+        <div class="user-menu">
+            <button>
+                <i class="user-icon">u</i>
+                username
+                <i class="fa fa-ellipsis dots"></i>
+            </button>
+            <ul>
+                <li><button>My plan</button></li>
+                <li><button>Custom instructions</button></li>
+                <li><button>Settings &amp; Beta</button></li>
+                <li><button>Log out</button></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="view new-chat-view">
+            <div class="model-selector">
+                <button class="gpt-3 selected">
+                    <i class="fa fa-bolt"></i> GPT-3.5
+                    <div class="model-info">
+                        <div class="model-info-box">
+                            <p>Our fastest model, great for most every day tasks.</p>
+
+                            <p class="secondary">Available to Free and Plus users</p>
+                        </div>
+                    </div>
+                </button>
+                <button class="gpt-4">
+                    <i class="fa fa-wand-magic-sparkles"></i> GPT-4
+                    <div class="model-info">
+                        <div class="model-info-box">
+                            <p>Our most capable model, great for creative stuff.</p>
+
+                            <p class="secondary">Available for Plus users.</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+
+            <div class="logo">
+                ChatWTF
+            </div>
+        </div>
+
+        <div class="view conversation-view">
+            <div class="model-name">
+                <i class="fa fa-bolt"></i> Default (GPT-3.5)
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+            <div class="user message">
+                <div class="identity">
+                    <i class="user-icon">u</i>
+                </div>
+                <div class="content">
+                    <p>Hello, how are you?</p>
+                </div>
+            </div>
+            <div class="assistant message">
+                <div class="identity">
+                    <i class="gpt user-icon">G</i>
+                </div>
+                <div class="content">
+                    <p>I'm doing well, thank you!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="message-form">
+            <div class="message-wrapper">
+                <textarea id="message" rows="1" placeholder="Send a message"></textarea>
+                <button class="send-button"><i class="fa fa-paper-plane"></i></button>
+            </div>
+            <div class="disclaimer">This is a ChatGPT UI Clone for personal use and educational purposes only.</div>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
